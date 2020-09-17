@@ -5,6 +5,8 @@ This replacement was started out of necessity for a gamemode framework I'm curre
 
 The gamemode itself is going to remain private for the time being, but the hook library itself I'll be making public. I may also make a c++ hook library aswell later(not for use in .lua files. The C++ hook library will only be used for internal stuff in C++, its not going to touch lua shit what so ever.)
 
+I also left in a booleon switch to startup with support for the default hook library for gmod. Set it to true to use the default hook library functions, or false when using the new version.
+
 
 # NOTICE:
 Not complete, don't expect things to behave normally yet. This readme will be updated later when everything is fully working. Want to help out? Go ahead and make a pull request, just try to stick to the notes left inside hook_new.lua(Basically there are several goals in mind for the replacement atm and I'd like to stick to those goals rather than change them. But if you have ideas for improving upon the goals feel free to open an issue and have a chat about it and we can see how things go from there.)
