@@ -3,7 +3,7 @@ A WIP replacement for the default hook library for garry's mod.
 
 This replacement was started out of necessity for a gamemode framework I'm currently working on right now. I wanted much better performance with the hook library aswell a few additional functionalities that just couldn't be replicated as well on their own outside of the hook library. A few additional functions are planned for the Hook Library aswell as some additional functionality to some already existing functions.
 
-The gamemode itself is going to remain private for the time being, but the hook library itself I'll be making public. I may also make a c++ hook library aswell later(not for use in .lua files. The C++ hook library will only be used for internal stuff in C++, its not going to touch lua shit what so ever.)
+The gamemode itself is going to remain private for the time being, but the hook library itself I'll be making public. I may also make a c++ hook library aswell later(not for use in .lua files. The C++ hook library will only be used for internal stuff in C++, its not going to touch lua shit what so ever. It will only be existing serverside aswell.)
 
 I also left in a booleon switch to startup with support for the default hook library for gmod. Set it to true to use the default hook library functions, or false when using the new version.
 
